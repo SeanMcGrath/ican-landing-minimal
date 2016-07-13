@@ -57,7 +57,15 @@ a {
 
 	&:hover {
 		background-color: black;
-		color:white;
+		color: white;
+	}
+
+	&:focus {
+		color: black;
+
+		&:hover {
+			color: white;
+		}
 	}
 }
 

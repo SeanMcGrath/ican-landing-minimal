@@ -5856,6 +5856,10 @@ a {
   a:hover {
     background-color: black;
     color: white; }
+  a:focus {
+    color: black; }
+    a:focus:hover {
+      color: white; }
 
 @media screen and (min-width: 768px) {
   .full-height {
